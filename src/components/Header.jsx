@@ -18,14 +18,14 @@ const Header = () => {
                             <span className="link">Accueil</span>
                         </Link>
                     </li>
-                    <li><a href="experience.html"><span className="material-symbols-outlined">person</span><span
-                        className="link">Experience</span></a>
+                    <li><Link to={"/experience"}><span className="material-symbols-outlined">person</span><span
+                        className="link">Experience</span></Link>
                     </li>
-                    <li><a href="portfolio.html"><span className="material-symbols-outlined">image</span><span
-                        className="link">Portfolio</span></a>
+                    <li><Link to={"/portfolio"}><span className="material-symbols-outlined">image</span><span
+                        className="link">Portfolio</span></Link>
                     </li>
-                    <li><a href="contact.html"><span className="material-symbols-outlined">alternate_email</span><span
-                        className="link">Contact</span></a>
+                    <li><Link to={"/contact"}><span className="material-symbols-outlined">alternate_email</span><span
+                        className="link">Contact</span></Link>
                     </li>
                 </ul>
             </nav>
