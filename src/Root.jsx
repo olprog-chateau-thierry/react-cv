@@ -1,12 +1,13 @@
 import {Outlet} from "react-router-dom";
+import Header from "./components/Header.jsx";
 
 const Root = () => {
 
     return (
-        <>
-            <header>Header</header>
+        <main id="app">
+            <Header />
             <Outlet />
-        </>
+        </main>
     )
 }
 
